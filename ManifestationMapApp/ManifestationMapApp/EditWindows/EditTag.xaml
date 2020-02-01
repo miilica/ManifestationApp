@@ -1,0 +1,23 @@
+﻿<Window x:Class="ManifestationMapApp.EditTag"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManifestationMapApp"
+        mc:Ignorable="d"
+        Title="EditTag" Height="591.955" Width="929.179">
+    <Grid Background="#FF9CD487">
+        <Label Content="Edit tag" HorizontalAlignment="Left" Margin="335,10,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold"/>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold"/>
+        <TextBox Name="txtID" IsReadOnly="True" HorizontalAlignment="Left" Height="40" Margin="162,159,0,0" TextWrapping="Wrap" VerticalContentAlignment="Center" Text="" VerticalAlignment="Top" Width="194" FontSize="22" FontWeight="Bold" RenderTransformOrigin="0.506,1.445"/>
+        <Label Content="Description:" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" RenderTransformOrigin="0.594,2.408"/>
+        <TextBox Name="txtDesc" HorizontalAlignment="Left" Height="113" Margin="162,249,0,0" TextWrapping="Wrap" VerticalContentAlignment="Center" Text="" VerticalAlignment="Top" Width="643" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Colour:" HorizontalAlignment="Left" Margin="451,159,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" RenderTransformOrigin="1.352,0.583"/>
+        <Button Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="226,497,0,0" VerticalAlignment="Top" Width="157" FontSize="20" FontWeight="Bold" Height="45" Click="BtnSave_Click"/>
+        <Button Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="451,497,0,0" VerticalAlignment="Top" Width="157" FontSize="20" FontWeight="Bold" Height="45" Click="BtnCancel_Click"/>
+        <Rectangle Fill="#33000000" HorizontalAlignment="Left" Height="7" Margin="10,454,0,0" Stroke="Black" VerticalAlignment="Top" Width="823"/>
+        <Label Name="error" Content="" HorizontalAlignment="Left" Margin="240,53,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="Red"/>
+        <Rectangle Fill="#FFF4F4F5" Name="rtgColour" HorizontalAlignment="Left" Height="45" Margin="542,159,0,0" Stroke="Black" VerticalAlignment="Top" Width="148"/>
+        <Button Name="btnChoseColour" Content="Chose colour" HorizontalAlignment="Left" Margin="714,159,0,0" VerticalAlignment="Top" Width="157" FontSize="20" FontWeight="Bold" Height="45" Click="BtnChoseColour_Click" />
+    </Grid>
+</Window>

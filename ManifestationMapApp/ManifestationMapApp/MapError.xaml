@@ -1,0 +1,17 @@
+﻿<Window x:Class="ManifestationMapApp.MapError"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManifestationMapApp"
+        mc:Ignorable="d"
+        Title="MapError" Height="270.56" Width="614.954" >
+
+    <Grid Background="#FF9CD487" Margin="0,0,-6.2,0.8" RenderTransformOrigin="0.498,0.435" >
+
+        <Label Content="This manifestation is already on the map!" FontSize="22" FontWeight="Bold" HorizontalAlignment="Left" Margin="108,45,0,0" VerticalAlignment="Top" Height="40" Width="444" RenderTransformOrigin="0.818,2.667"/>
+        <Button Content="Ok" FontSize="20" FontWeight="Bold"  Margin="276,162,256,39" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
